@@ -23,10 +23,11 @@ button:focus {
   background-color: hsl(241, 81%, 54%);
   border-radius: 10%;
   margin-bottom: 20px;
+  padding:20px;
 }
 .first-site{
   width: fit-content;
-  margin-left: 400px;
+  margin-left: 380px;
 }
 
 .second-site {
