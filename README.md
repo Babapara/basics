@@ -21,7 +21,7 @@ This project is a response to a coding challenge aimed at creating a result inte
 The challenge was done to build a result summary component page.
 
 ### Links
-- Live Site URL: https://babapara.github.io/basic/
+- Live Site URL: https://babapara.github.io/basics/
 
 
 ### Built with
@@ -35,6 +35,6 @@ I Re-learnt CSS Grid
 
 ## Author
 BABAWIBE DUKE
-- Frontend Mentor - [@](https://www.frontendmentor.io/profile/Babapara)
+- Frontend Mentor - (https://www.frontendmentor.io/profile/Babapara)
 
 
