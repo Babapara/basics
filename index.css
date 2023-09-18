@@ -2,10 +2,7 @@
   background-color: whitesmoke;
   font-family: 'Hanken Grotesk', sans-serif;
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-items: center; 
-  align-items: center; 
-  grid-column-gap: 2px;
+  grid-template-columns: 1fr;
   font-size: 16px;
 }
 
@@ -14,59 +11,48 @@ button:focus {
   background-color: hsl(225, 83%, 10%);
 }
 
-
-@media (max-width: 767px) {
+@media (min-width: 750px) {
   .main {
-    grid-template-columns: 1fr; 
+    grid-template-columns: 1fr 1fr;
   }
 }
 
-@media (min-width: 768px){ .main{
-  grid-template-columns: 1fr 1fr;
-}
-}
-
-
-.first-site {
+.first-site, .second-site {
   background-color: hsl(241, 81%, 54%);
-  grid-column: 1;
   border-radius: 10%;
-  padding: 20px; 
+  padding: 20px;
+  margin-bottom: 20px;
 }
 
 .second-site {
-  grid-column: 2;
   background-color: whitesmoke;
-  border-radius: 10%;
-  padding: 20px; 
 }
 
 .result {
   color: hsl(241, 90%, 27%);
-  margin-bottom: 20px;
   text-align: center;
+  margin-bottom: 20px;
+}
+
+.circle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  background-color: hsl(241, 90%, 31%);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
 
-.circle-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 200px; 
-    margin-bottom:20px;
-  }
-  
-  .circle {
-    width: 200px; 
-    height: 200px; 
-    background-color:hsl(241, 90%, 31%); 
-    border-radius: 50%; 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-  }
-  
   .content {
     text-align: center; 
     color: white; 
