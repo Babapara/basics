@@ -5,10 +5,15 @@ This is a solution to the [Results summary component challenge on Frontend Mento
 ## Table of contents
 
 Project Title
+
 Overview
+
 The Challenge
+
 Links
+
 Built With
+
 Author
 
 ## Project Title
