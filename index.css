@@ -15,13 +15,13 @@ button:focus {
 }
 
 
-@media (max-width: 749px) {
+@media (max-width: 767px) {
   .main {
     grid-template-columns: 1fr; 
   }
 }
 
-@media (min-width: 760px){ .main{
+@media (min-width: 768px){ .main{
   grid-template-columns: 1fr 1fr;
 }
 }
