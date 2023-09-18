@@ -4,6 +4,8 @@
   display: grid;
   grid-template-columns: 1fr;
   font-size: 16px;
+  justify-content: space-between;
+  align-content: center;
 }
 
 button:hover,
@@ -20,12 +22,16 @@ button:focus {
 .first-site, .second-site {
   background-color: hsl(241, 81%, 54%);
   border-radius: 10%;
-  padding: 20px;
   margin-bottom: 20px;
+}
+.first-site{
+  width: fit-content;
+  margin-left: 400px;
 }
 
 .second-site {
   background-color: whitesmoke;
+  width:fit-content
 }
 
 .result {
